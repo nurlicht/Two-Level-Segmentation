@@ -13,7 +13,7 @@ A simple compromising solution is <i>soft</i> thresholding, in which different w
 <img src="./Images/thresholdingMethods.png" />
 </p>
 <p align="justify">
-The program <a href="./Program/V1.0/Connectivity_Map.jar">here</a> is an implementation of (iterative) two-level (AKA hysteresis) thresholding for segmentation. It identifies isolated islands; with each island comprising a set of connected high-intensity (thresholded) pixels. The islands can be used either with the same image (single-channel mode) or with with a second corresponding channel to see if and how much selected spots in one channel have been expanded in the other channel. The input image can include multiple depths and/or time-points; i.e, a hyperstack I(x, y, z, t).
+The program <a href="./Program/V1.0/Connectivity_Map.jar">here</a> (an <a href="https://imagej.net/Welcome">ImageJ</a> Plugin) is an implementation of (iterative) two-level (AKA hysteresis) thresholding for segmentation. It identifies isolated islands; with each island comprising a set of connected high-intensity (thresholded) pixels. The islands can be used either with the same image (single-channel mode) or with with a second corresponding channel to see if and how much selected spots in one channel have been expanded in the other channel. The input image can include multiple depths and/or time-points; i.e, a hyperstack I(x, y, z, t).
 </p>
 <p align="center">
 <img src="./Images/Stack.gif" />
